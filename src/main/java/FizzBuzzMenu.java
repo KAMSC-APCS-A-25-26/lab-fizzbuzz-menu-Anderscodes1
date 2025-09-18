@@ -19,7 +19,7 @@ public class FizzBuzzMenu {
             int choice = sc.nextInt();
 
             // switch cases
-            switch()
+            switch(choice)
             {
                 case 1:
                     for (int j=0; j<100; j++) {
