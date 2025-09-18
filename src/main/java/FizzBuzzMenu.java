@@ -49,6 +49,7 @@ public class FizzBuzzMenu {
                     running = false;
                     System.out.println("Goodbye");
                     break;
+                    // bro what is going on why is it taking this long
             }
         }
     }
