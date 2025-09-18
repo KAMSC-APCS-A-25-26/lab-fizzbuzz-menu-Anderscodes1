@@ -6,7 +6,7 @@ public class FizzBuzzMenu {
         Scanner sc = new Scanner(System.in);
         boolean running = true;
         
-        while (running == true);
+        while (running)
         {
             // output menu of choices for user
             System.out.println("--- FizzBuzz Menu ---");
@@ -14,7 +14,7 @@ public class FizzBuzzMenu {
             System.out.println("2. Buzz (Multiples of 5)");
             System.out.println("3. FizzBuzz (Multiples of 3 and 5)");
             System.out.println("4. Exit");
-            System.out.println("Enter your choice: ");
+            System.out.print("Enter your choice: ");
 
             int choice = sc.nextInt();
 
@@ -22,7 +22,7 @@ public class FizzBuzzMenu {
             switch(choice)
             {
                 case 1:
-                    for (int j=0; j<100; j++) {
+                    for (int j=1; j<100; j++) {
                         if (j%3==0) {
                             System.out.print(j + " ");
                         }
@@ -30,7 +30,7 @@ public class FizzBuzzMenu {
                     System.out.println();
                     break;
                 case 2:
-                    for (int j=0; j<100; j++) {
+                    for (int j=1; j<100; j++) {
                         if (j%5==0) {
                             System.out.print(j + " ");
                         }
@@ -38,7 +38,7 @@ public class FizzBuzzMenu {
                     System.out.println();
                     break;
                 case 3:
-                    for (int j=0; j<100; j++) {
+                    for (int j=1; j<100; j++) {
                         if (j%3==0 && j%5==0) {
                             System.out.print(j + " ");
                         }
